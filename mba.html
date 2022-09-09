@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideal Institute of Business & Science</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Department</button>
+              <div class="dropdown-content">
+                <a href="cse.html">CSE</a>
+                <a href="bba.html">BBA</a>
+                <a href="mba.html">MBA</a>
+              </div>
+            </div>
+            <a href="index.html">Contact</a> 
+        </div>
+        <div class="heading">
+            <h2>Ideal Institute Of Business & Science</h2>
+            <p>Department Of Department Of Masters of Business Administration</p>
+        </div>
+        <div class="formatted_text">
+            <h1><i>About Us</i></h1>
+            <p><b>Lorem ipsum dolor sit amet consectetur</b>adipisicing elit. <strong>Est placeat repellat</strong>
+             minus, <small>aut non qui tempore quas voluptatibus maiores</small> , <sub>maxime</sub> 
+             quod eos? Ducimus 
+             <sup>nostrum mollitia</sup> placeat nihil? Libero, id iure?
+
+             <br>
+             <b style="color: red;">NOTE : Please write required things
+                 using these above tags about your institute and remove this note line</b>
+            </p>
+        </div>
+        <div class="faculty">
+            <div class="members">
+                <h2 id="fac_mem">Faculty Members</h2>
+
+                <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Contact</th>
+                </tr>
+                <tr>
+                    <td>Md. Ali Asgor</td>
+                    <td>Assistent Professor</td>
+                    <td>+880 1527309851</td>
+                </tr>
+                <tr>
+                    <td>Md. Toufiqul Islam</td>
+                    <td>Lecturer</td>
+                    <td>+880 1569853412</td>
+                </tr>
+                <tr>
+                    <td>Samsul Haque</td>
+                    <td>Lecturer</td>
+                    <td>+880 1627309821</td>
+                </tr>
+                <tr>
+                    <td>Mahmudul Hasan</td>
+                    <td>Lecturer</td>
+                    <td>+880 1568954723</td>
+                </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <p>All ©Copy Right Are Riserved 2022</p>
+        </footer>
+        <script>
+            const box = document.getElementById('fac_mem');
+
+            // Change text color on mouseover
+            box.addEventListener('mouseover', function handleMouseOver() {
+            box.style.color = 'green';
+            });
+
+            // Change text color back on mouseout
+            box.addEventListener('mouseout', function handleMouseOut() {
+            box.style.color = 'black';
+            });
+        </script>
+    </div>
+</body>
+</html>
